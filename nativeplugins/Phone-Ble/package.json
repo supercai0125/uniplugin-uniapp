@@ -1,0 +1,42 @@
+{
+    "name": "PhoneBle",
+    "id": "Phone-Ble",
+    "version": "1.0",
+    "description": "手表升级",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+		"android": {
+			"plugins": [
+				{
+					"type": "module",
+					"name": "Phone-Ble",
+					"class": "io.dcloud.ble.StUpgradeUtils"
+				}
+			],
+			"hooksClass": "",
+			"integrateType": "aar",
+			"dependencies": [
+				
+			],
+			"compileOptions": {
+				"sourceCompatibility": "1.8",
+				"targetCompatibility": "1.8"
+			},
+			"abis": [
+				"armeabi-v7a",
+				"x86"
+			],
+			"minSdkVersion": "22",
+			"permissions": [
+				
+			],
+			"parameters": {
+				"android_appid": {
+					"des": "请填写appid",
+					"key": "TM123456",
+					"placeholder": ""
+				}
+			}
+		}
+	}
+}
